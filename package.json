@@ -14,6 +14,7 @@
     "format": "prettier --ignore-path .gitignore \"**/*.+(ts|js|tsx)\" --write",
     "ingest": "tsx -r dotenv/config scripts/ingest-data.ts",
     "demo-ingest": "tsx -r dotenv/config scripts/demo-ingest.ts",
+    "delete-namespace": "tsx -r dotenv/config scripts/delete-namespace.ts",
     "example-llm": "tsx -r dotenv/config scripts/llm.ts",
     "example-llm-chain": "tsx -r dotenv/config scripts/llm-chain.ts",
     "example-retrieval-qa": "tsx -r dotenv/config scripts/retrieval-qa.ts",
